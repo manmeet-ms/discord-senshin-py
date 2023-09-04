@@ -1,7 +1,7 @@
 name: Senshin - A Study Comrade 
 on:
   schedule:
-    - cron: '*/35 11-16 * * 1-5'
+    - cron: '*/45 11-16 * * 1-5'
   
   workflow_dispatch:    # Allow manual triggering of the workflow
 
