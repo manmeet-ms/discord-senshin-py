@@ -38,7 +38,7 @@ async def send_message():
     channel_id=1148275606635696208 #pc-config
     channel = client.get_channel(channel_id)
     choice = randint(0, len(embed_colors)-1)
-    embedtry=discord.Embed(description=f"{quotes[choice]} {mention}", color=embed_colors[choice])
+    embedtry=discord.Embed(title="Finished 45m Pomodoro", description=f"{quotes[choice]} {mention}", color=embed_colors[choice])
     embedtry.set_footer(text=f"Embed Hex: {hex(embed_colors[choice])}", icon_url=None)
     await channel.send(embed=embedtry)
 
