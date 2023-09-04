@@ -35,7 +35,7 @@ async def send_message():
     global quotes
     mention='<@788713878963748876>'
     embed_colors=[0x64748b, 0xfed7aa, 0xf97316, 0xfef3c7, 0xfbbf24, 0x22c55e, 0x0d9488, 0x22d3ee, 0x0ea5e9, 0x8b5cf6, 0xf9a8d4, 0xf472b6, 0xfda4af]
-    channel_id=1145785026894639205 #pc-config
+    channel_id=1148275606635696208 #pc-config
     channel = client.get_channel(channel_id)
     choice = randint(0, len(embed_colors)-1)
     embedtry=discord.Embed(description=f"{quotes[choice]} {mention}", color=embed_colors[choice])
